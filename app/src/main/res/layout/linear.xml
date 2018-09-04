@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/holo_blue_dark"
+        android:paddingLeft="7dp"
+        android:paddingTop="7dp"
+        android:text="Linear Layout"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        app:srcCompat="@drawable/linear" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="THE OASIS PACO PARK HOTEL"
+        android:textSize="30sp"
+        app:fontFamily="serif" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:paddingLeft="7dp"
+        android:paddingTop="15dp"
+        android:text="Location: 1032 Belen, Paco, Manila, 1007 Metro Manila" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:paddingLeft="7dp"
+        android:text="Distance from UST: 4.0 km" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="Next" />
+    </LinearLayout>
+
+</LinearLayout>
